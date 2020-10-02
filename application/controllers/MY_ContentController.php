@@ -73,15 +73,6 @@ class MY_ContentController extends CI_Controller {
 									
 			$this->meta['meta_links']='<link rel="image_src" href="'.$this->meta['icon_url'].'" />
 									<link rel="alternate" type="application/rss+xml" title="Facebook" href="'.$this->meta['fb_url'].'" />';
-									
-			$this->meta['x_promotion']='<div>Schaut auch nach unseren anderen Angeboten im <a class="navbar-brand" href="https://spielcenter-chemnitz.de" target="_blank">Spielcenter Chemnitz</a>
-							<a href="https://lasergame-chemnitz.de" target="_blank">
-							<img src="'.base_url('assets/x_promo/lasergame_logo.png').'" width="42" height="42" class="d-inline-block align-bottom" alt="Lasergame / Lasertag Chemnitz"></a>
-							<a href="https://bowling-chemnitz.de" target="_blank">
-							<img src="'.base_url('assets/x_promo/bowling_chemnitz_logo.svg').'" width="42" height="42" class="d-inline-block align-bottom" alt="Bowling Center Chemnitz"></a>
-							<a href="https://minigolf-chemnitz.de" target="_blank">
-							<img src="'.base_url('assets/x_promo/adventure_minigolf_logo.webp').'" width="42" height="42" class="d-inline-block align-bottom" alt="Schwarzlicht Adventure Minigolf Chemnitz"></a>
-							</div>';
     }
 
 }
