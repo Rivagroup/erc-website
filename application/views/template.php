@@ -46,6 +46,16 @@
                     <a class="nav-link" href="<?= base_url('preise'); ?>">Preise</a>
                 </li>
                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Angebote</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item disabled" href="<?= base_url('angebote'); ?>">Übersicht</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="<?= base_url('kindergeburtstag'); ?>">Kindergeburtstag</a>
+                        <a class="dropdown-item disabled" href="<?= base_url('angebote/schuelerpakete'); ?>">Schülerpakete</a>
+                        <a class="dropdown-item disabled" href="<?= base_url('angebote/partyraeume'); ?>">Partyräume</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Escaperooms</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="<?= base_url('escaperooms'); ?>">Übersicht</a>
@@ -56,16 +66,13 @@
                         <a class="dropdown-item" href="<?= base_url('escaperooms/jigsaw'); ?>">Jigsaw</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="<?= base_url('veranstaltungen'); ?>">Veranstaltungen</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Jetzt Buchen</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="<?= base_url('buchen/viruslabor'); ?>">Viruslabor buchen</a>
                         <a class="dropdown-item" href="<?= base_url('buchen/gefaengnis'); ?>">Gefängis buchen</a>
                         <a class="dropdown-item" href="<?= base_url('buchen/psychiatrie'); ?>">Psychiatrie buchen</a>
-                        <a class="dropdown-item disabled" href="<?= base_url('buchen/jigsaw'); ?>">Jigsaw buchen</a>
+                        <a class="dropdown-item" href="<?= base_url('buchen/jigsaw'); ?>">Jigsaw buchen</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -73,7 +80,18 @@
                 </li>
             </ul>
         </div>
-        <?= $x_promotion ?>
+        <div>
+            Schaut auch nach unseren anderen Angeboten im <a class="navbar-brand" href="https://spielcenter-chemnitz.de" target="_blank">Spielcenter Chemnitz</a>
+            <a href="https://lasergame-chemnitz.de" target="_blank">
+                <img src="<?=base_url('assets/x_promo/lasergame_logo.png')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Lasergame / Lasertag Chemnitz">
+            </a>
+            <a href="https://bowling-chemnitz.de" target="_blank">
+                <img src="<?=base_url('assets/x_promo/bowling_chemnitz_logo.svg')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Bowling Center Chemnitz">
+            </a>
+            <a href="https://minigolf-chemnitz.de" target="_blank">
+                <img src="<?=base_url('assets/x_promo/adventure_minigolf_logo.webp')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Schwarzlicht Adventure Minigolf Chemnitz">
+            </a>
+        </div>
     </nav>
 
     <p>&nbsp;</p>

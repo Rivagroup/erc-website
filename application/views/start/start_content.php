@@ -1,19 +1,3 @@
-<div class="card shadow-sm text-white bg-success mb-3" style="width: auto;">
-    <h4 class="card-header text-uppercase"><i class="fas fa-info-circle"></i> Long time no see</h4>
-    <div class="card-body">
-        <p class="card-text text-justify">
-            Wir sind wieder da! Ab dem <b>21.05.2020</b> öffnen wir wieder die Türen und ihr habt die Möglichkeit, euch
-            durch unsere Räume zu rätseln. Natürlich gibt es auch hier entsprechende Hygiene-regeln, welche Beachtung
-            finden sollten. Eine Reservierung ist ab Montag, dem <b>18.05.2020</b>, wieder möglich. Wir freuen
-            uns nun endlich, euch alle wiedersehen zu können.
-        </p>
-    </div>
-    <div class="card-footer d-flex flex-column">
-        <a href="<?=base_url("buchung/allyoucantag")?>" class="btn btn-success disabled mt-auto"><i
-                class="fas fa-info-circle"></i> weitere Informationen</a>
-    </div>
-</div>
-<hr />
 <div class="card">
     <img class="card-img-top" src="<?= base_url('assets/header/start_faces.webp'); ?>" alt="Escaperoom Chemnitz" />
     <div class="card-header text-center bg-primary text-light">
