@@ -63,4 +63,12 @@
             </div>
         </div>
     </div>
+    
+    <div class="jumbotron jumbotron-fluid mt-4 rounded bg-primary text-light">
+        <div class="container">
+            <h1 class="display-4">KINDERGEBURTSTAG<br/>KOMBI-PAKETE</h1>
+            <p class="lead">ein Escape-Room Spiel eurer Wahl (Viruslabor oder Prison-Break) plus eine weitere Aktivität für 5 Kinder / Teilnehmer</p>
+            <a href="https://spielcenter-chemnitz.de/kombi/#escape" target="_blank" class="btn btn-lg btn-block btn-light" role="button">weitere Informationen</a>
+        </div>
+    </div>
 </div>
