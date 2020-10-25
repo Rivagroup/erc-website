@@ -13,15 +13,13 @@
     <meta name="author" content="<?= $author ?>" />
     <meta name="co-author" content="<?= $co_author ?>" />
     <meta name="pragma" content="<?= $cache ?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/bc.bootstrap.min.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/erc.bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="<?= base_url('assets/favicon.png'); ?>" rel="icon" type="image/png" />
 	<?= $meta_postal ?>
     <?= $meta_og ?>
     <?= $meta_itemprop ?>
     <?= $meta_links ?>
-
-    <link rel="stylesheet" href="<?= base_url('assets/css/esc.bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="<?= base_url('assets/favicon.png'); ?>" rel="icon" type="image/png" />
 
@@ -83,18 +81,6 @@
                 </li>
             </ul>
         </div>
-        <div>
-            Schaut auch nach unseren anderen Angeboten im <a class="navbar-brand" href="https://spielcenter-chemnitz.de" target="_blank">Spielcenter Chemnitz</a>
-            <a href="https://lasergame-chemnitz.de" target="_blank">
-                <img src="<?=base_url('assets/x_promo/lasergame_logo.png')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Lasergame / Lasertag Chemnitz">
-            </a>
-            <a href="https://bowling-chemnitz.de" target="_blank">
-                <img src="<?=base_url('assets/x_promo/bowling_chemnitz_logo.svg')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Bowling Center Chemnitz">
-            </a>
-            <a href="https://minigolf-chemnitz.de" target="_blank">
-                <img src="<?=base_url('assets/x_promo/adventure_minigolf_logo.webp')?>" width="42" height="42" class="d-inline-block align-bottom" alt="Schwarzlicht Adventure Minigolf Chemnitz">
-            </a>
-        </div>
     </nav>
 
     <p>&nbsp;</p>
@@ -125,6 +111,12 @@
                     </p>
                 </div>
                 <div class="col-md-8 col-sm-12">
+                <div class="row text-center">
+                    <div class="col"><a href="https://spielcenter-chemnitz.de" target="_blank"><img class="img-fluid" src="<?= base_url('assets/x_promo/spielcenter_chemnitz_logo.svg') ?>" alt="Spielcenter Chemnitz"></a></div>
+                    <div class="col"><a href="https://bowling-chemnitz.de" target="_blank"><img class="img-fluid" src="<?= base_url('assets/x_promo/bowling_chemnitz_logo.svg') ?>" alt="Bowling Center Chemnitz"></a></div>
+                    <div class="col"><a href="https://minigolf-chemnitz.de" target="_blank"><img class="img-fluid" src="<?= base_url('assets/x_promo/minigolf_chemnitz_logo.svg') ?>" alt="Schwarzlicht Adventure Minigolf Chemnitz"></a></div>
+                    <div class="col"><a href="https://lasergame-chemnitz.de" target="_blank"><img class="img-fluid" src="<?= base_url('assets/x_promo/lasergame_chemnitz_logo.svg') ?>" alt="Lasertag / Lasergame Chemnitz"></a></div>
+                </div>
                 </div>
                 <div class="col-md-2 col-sm-12">
                     <p>
