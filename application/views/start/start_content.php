@@ -1,4 +1,5 @@
-<div class="card">
+<a href ="https://spielcenter-chemnitz.de/silvester/" target="_blank"><img src="<?=base_url("assets/header/slider_silvester2020.png")?>" alt="Silvester 2020/21" class="img-fluid"></a>
+<div class="card mt-3">
     <img class="card-img-top" src="<?= base_url('assets/header/start_faces.webp'); ?>" alt="Escaperoom Chemnitz" />
     <div class="card-header text-center bg-primary text-light">
         <h2 class="display-4 text-uppercase"><i class="fas fa-puzzle-piece"></i> Holt Euch den Kick</h2>
