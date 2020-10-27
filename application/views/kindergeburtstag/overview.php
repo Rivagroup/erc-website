@@ -18,7 +18,8 @@
             <div class="card-footer">
                 <p class="display-3 text-center"><b>110 €</b></p>
                 <a class="btn btn-sm btn-block btn-info" href="<?= base_url('kindergeburtstag/basic'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> jetzt Buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/kindergeburtstagBasic'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
         <div class="card bg-warning text-dark">
@@ -38,7 +39,8 @@
             <div class="card-footer">
                 <p class="display-3 text-center"><b>135 €</b></p>
                 <a class="btn btn-sm btn-block btn-warning" href="<?= base_url('kindergeburtstag/maxi'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> jetzt Buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/kindergeburtstagMaxi'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
         <div class="card bg-success text-white">
@@ -59,7 +61,8 @@
             <div class="card-footer">
                 <p class="display-3 text-center"><b>150 €</b></p>
                 <a class="btn btn-sm btn-block btn-success" href="<?= base_url('kindergeburtstag/xxl'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> jetzt Buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/kindergeburtstagXXL'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
     </div>

@@ -93,7 +93,8 @@
             </div>
             <div class="card-footer">
                 <a class="btn btn-sm btn-block btn-info" href="<?= base_url('escaperooms/jigsaw'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary disabled" href="<?= base_url('buchen/jigsaw'); ?>"><i class="far fa-calendar-plus"></i> jetzt Buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/jigsaw'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
         <div class="card">
@@ -173,7 +174,8 @@
             </div>
             <div class="card-footer">
                 <a class="btn btn-sm btn-block btn-info" href="<?= base_url('escaperooms/viruslabor'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchen/viruslabor'); ?>"><i class="far fa-calendar-plus"></i> jetzt Buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/viruslabor'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
     </div>
@@ -256,7 +258,8 @@
             </div>
             <div class="card-footer">
                 <a class="btn btn-sm btn-block btn-info" href="<?= base_url('escaperooms/gefaengnis'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchen/gefaengnis'); ?>"><i class="far fa-calendar-plus"></i> jetzt Buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/gefaengnis'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
         <div class="card">
@@ -336,7 +339,8 @@
             </div>
             <div class="card-footer">
                 <a class="btn btn-sm btn-block btn-info" href="<?= base_url('escaperooms/psychiatrie'); ?>"><i class="fas fa-info"></i> weitere Informationen</a>
-                <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchen/psychiatrie'); ?>"><i class="far fa-calendar-plus"></i> jetzt Buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="tel:+4937133423340"><i class="fas fa-phone"></i> telefonisch buchen</a>
+            <a class="btn btn-lg btn-block btn-primary" href="<?= base_url('buchung/psychiatrie'); ?>"><i class="far fa-calendar-plus"></i> online buchen</a>
             </div>
         </div>
     </div>

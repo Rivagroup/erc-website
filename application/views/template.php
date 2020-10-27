@@ -67,10 +67,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Jetzt Buchen</a>
                     <div class="dropdown-menu mb-3">
-                        <a class="dropdown-item" href="<?= base_url('buchen/viruslabor'); ?>">Viruslabor buchen</a>
-                        <a class="dropdown-item" href="<?= base_url('buchen/gefaengnis'); ?>">Gefängis buchen</a>
-                        <a class="dropdown-item" href="<?= base_url('buchen/psychiatrie'); ?>">Psychiatrie buchen</a>
-                        <a class="dropdown-item" href="<?= base_url('buchen/jigsaw'); ?>">Jigsaw buchen</a>
+                        <a class="dropdown-item" href="<?= base_url('buchung/viruslabor'); ?>">Viruslabor buchen</a>
+                        <a class="dropdown-item" href="<?= base_url('buchung/gefaengnis'); ?>">Gefängis buchen</a>
+                        <a class="dropdown-item" href="<?= base_url('buchung/psychiatrie'); ?>">Psychiatrie buchen</a>
+                        <a class="dropdown-item" href="<?= base_url('buchung/jigsaw'); ?>">Jigsaw buchen</a>
                     </div>
                 </li>
                 <li class="nav-item">
