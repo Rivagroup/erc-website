@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xrx_ikE5pa4?rel=0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5rSKZrn63Tk" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
