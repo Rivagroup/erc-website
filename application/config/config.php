@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost';
+$config['base_url'] = 'https://escaperoom-chemnitz.de';
 
 /*
 |--------------------------------------------------------------------------
@@ -234,7 +234,7 @@ $config['log_threshold'] = 0;
 | application/logs/ directory. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '';
+$config['log_path'] = 'C:/Inetpub/vhosts/spielcenter-chemnitz.de/escaperoom-chemnitz.de/system/logs';
 
 /*
 |--------------------------------------------------------------------------
