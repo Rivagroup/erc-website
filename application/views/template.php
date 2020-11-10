@@ -104,7 +104,7 @@
                         </a>
                     </p>
                     <p>
-                        <a class="btn btn-sm btn-block btn-primary" href="http://maps.google.com/maps?saddr=&daddr=Wladimir%20Sagorski%20Str.%2020,%2009122%20Chemnitz&sensor=true" target="_blank">
+                        <a class="btn btn-sm btn-block btn-primary" href="http://maps.apple.com/?q=Wladimir%20Sagorski%20Str.%2020,%2009122%20Chemnitz" target="_blank">
                             <i class="fas fa-route"></i> Anfahrt
                         </a>
                     </p>
